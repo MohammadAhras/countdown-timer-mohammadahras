@@ -2,7 +2,7 @@
 import { useState, useRef, useEffect, ChangeEvent } from "react"; 
 import { Input } from "@/components/ui/input"; 
 import { Button } from "@/components/ui/button"; 
-import { Target } from "lucide-react";
+
 
 export default function Countdown(){
     const[duration, setduration] = useState<number| string>("");
